@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanToDoLIst.Domain", "Cle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanToDoList.Tests", "CleanToDoList.Tests\CleanToDoList.Tests.csproj", "{D10F2CAD-5B15-48E8-B0B0-C1BD4B8AC0BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanToDoLIst.Data", "CleanToDoLIst.Data\CleanToDoLIst.Data.csproj", "{B7F99CA1-77E7-4066-AF45-C993374B7BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D10F2CAD-5B15-48E8-B0B0-C1BD4B8AC0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10F2CAD-5B15-48E8-B0B0-C1BD4B8AC0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10F2CAD-5B15-48E8-B0B0-C1BD4B8AC0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F99CA1-77E7-4066-AF45-C993374B7BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F99CA1-77E7-4066-AF45-C993374B7BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F99CA1-77E7-4066-AF45-C993374B7BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F99CA1-77E7-4066-AF45-C993374B7BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

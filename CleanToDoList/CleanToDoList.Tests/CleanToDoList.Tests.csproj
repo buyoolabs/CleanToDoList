@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -53,13 +57,20 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AddTaskUseCaseTests.cs" />
+    <Compile Include="AddedSuccessfullTask.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CleanToDoLIst.Data\CleanToDoLIst.Data.csproj">
+      <Project>{b7f99ca1-77e7-4066-af45-c993374b7bbf}</Project>
+      <Name>CleanToDoLIst.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CleanToDoLIst.Domain\CleanToDoLIst.Domain.csproj">
       <Project>{1eb48965-adcc-4a8a-99fa-7684e9ef14c8}</Project>
       <Name>CleanToDoLIst.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
